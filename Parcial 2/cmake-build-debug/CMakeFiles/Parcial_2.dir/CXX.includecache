@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/gapeb/Desktop/COMPU/Parcial 2/Animal.h
+string
+-
+
+C:/Users/gapeb/Desktop/COMPU/Parcial 2/Zoológico.cpp
+iostream
+-
+Animal.h
+C:/Users/gapeb/Desktop/COMPU/Parcial 2/Animal.h
+
