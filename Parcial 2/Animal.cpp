@@ -7,12 +7,12 @@
 
 using namespace std;
 
-Animal::Animal(string Nombre,float peso, bool numeroJaula){
+Animal::Animal(string Nombre,float peso, int numeroJaula, int tipo){
     void setName(string _name);
     void setWeight(float _weight);
     void setJail(int _Jail);
-    void setType(bool _type);
-    }
+    void setType(int _type);
+}
 
 void Animal::setName(string _name) {
     Nombre = _name;
@@ -41,7 +41,7 @@ int Animal::getJail() {
     return numeroJaula;
 }
 
-bool Animal::getType() {
+int Animal::getType() {
     return tipo;
 }
 

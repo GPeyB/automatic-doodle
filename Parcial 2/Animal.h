@@ -10,13 +10,13 @@ using namespace std;
 class Animal{
 private:
 
-    Animal(string Nombre,float peso, bool numeroJaula);
+    Animal(string Nombre,float peso, int numeroJaula, int tipo);
 
     //Variables de la clase
     string Nombre;
     float Peso;
     int tipo;
-    bool numeroJaula;
+    int numeroJaula;
 
 
 public:
@@ -37,7 +37,7 @@ public:
     string getName();
     float getWeight();
     int getJail();
-    bool getType();
+    int getType();
 
 
 };
